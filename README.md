@@ -61,10 +61,10 @@ where to find the update package.
 ```
 
 ### Configuration
-If you published the configuration fiels with the ``vendor:publish`` artisan command, you can
+If you published the configuration fiels with the ``config:publish`` artisan command, you can
 specify your own remote server.
 ```
-'remote_uri' => env('REMOTE_UPDATE_URI', 'http://localhost')
+'remote_uri' => 'http://localhost'
 ```
 You can easily set this parameter in your .env file. The URI should not have a trailing slash
 and the **remote_version.json** file on the webserver must be accessible.
