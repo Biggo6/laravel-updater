@@ -68,7 +68,7 @@ where to find the update package.
 If you published the configuration fiels with the ``config:publish`` artisan command, you can
 specify your own remote server.
 ```
-'remote_uri' => 'http://localhost'
+'remote_uri' => 'http://localhost/app-name/'
 ```
 You can easily set this parameter in ```config/packages```. The URI should not have a trailing slash
 and the **remote_version.json** file on the webserver must be accessible.
