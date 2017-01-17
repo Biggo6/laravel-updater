@@ -31,7 +31,7 @@ c) Create a **version.json** file in the root directory.
 d) Publish config file. (optionally)
 
 ```
-php artisan vendor:publish
+php artisan config:publish biggo6/laravel-updater
 ```
 
 ### Usage
