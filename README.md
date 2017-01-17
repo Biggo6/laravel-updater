@@ -11,7 +11,7 @@ PHP >= 5.4
 ### Installation
 1. Run
 ```
-composer require thetodd/laravel-updater
+composer require biggo6/laravel-updater
 ```
 2. Add service provider to **/config/app.php** file.
 ```php
