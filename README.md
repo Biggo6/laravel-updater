@@ -2,6 +2,10 @@
 This is a Laravel 4.2 package which supports self-update of Laravel applications.
 You only need a remote webserver which holds the update files.
 
+## Laravel 5.1+ Self-Updater
+
+Go to this https://github.com/thetodd/laravel-updater
+
 ### Requirements
 ```
 Laravel 4.2
