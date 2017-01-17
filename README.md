@@ -44,6 +44,7 @@ You can automatically update your application with the url ``self-updater/update
 ```
 php artisan view:publish biggo6/laravel-updater
 ```
+This command will move the package's views into the app/views/packages directory. If this directory doesn't already exist, it will be created when you run the command. Once the views have been published, you may tweak them to your liking! The exported views will automatically take precedence over the package's own view files.
 
 
 ### Remote version file
