@@ -16,7 +16,7 @@ PHP >= 5.4
 a) Run
 
 ```
-composer require biggo6/laravel-updater
+composer require biggo6/laravel-updater dev-master
 ```
 
 b) Add service provider to **/config/app.php** file.
