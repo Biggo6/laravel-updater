@@ -23,7 +23,6 @@
             "Biggo6\\LaravelUpdater\\": "src/"
         }
     },
-    "minimum-stability": "stable",
      "support": {
         "issues": "https://github.com/biggo6/laravel-updater/issues",
         "source": "https://github.com/biggo6/laravel-updater",
