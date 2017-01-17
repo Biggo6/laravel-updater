@@ -68,3 +68,7 @@ specify your own remote server.
 ```
 You can easily set this parameter in your .env file. The URI should not have a trailing slash
 and the **remote_version.json** file on the webserver must be accessible.
+
+### Credits
+
+https://github.com/thetodd/laravel-updater
