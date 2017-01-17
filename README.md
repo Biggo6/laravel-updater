@@ -17,7 +17,7 @@ composer require biggo6/laravel-updater
 ```php
 'providers' => [
     ...
-    Thetodd\Laravel\Updater\SelfUpdaterServiceProvider::class,
+    'Biggo6\LaravelUpdater\LaravelUpdaterServiceProvider',
 ],
 ```
 3. Create a **version.json** file in the root directory.
