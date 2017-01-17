@@ -15,7 +15,7 @@ class UpdateController extends \BaseController {
         $localVersionFile = file_get_contents(base_path('version.json'));
         $localVersionJson = json_decode($localVersionFile, true);
         //Parse remote version file
-        $remoteVersionFile = @file_get_contents(\Config::get('self-updater.remote_uri').'/remote_version.json');
+        $remoteVersionFile = @file_get_contents(\Config::get('self-updater::self-updater.remote_uri').'/remote_version.json');
         if ($remoteVersionFile === false) {
             return \View::make('self-updater::error')->with('error', 'Can not read remote version file.');
         }
