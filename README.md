@@ -39,6 +39,13 @@ in your web browser after the base url of your application.
 
 You can automatically update your application with the url ``self-updater/update``.
 
+### Customizing Views
+
+```
+php artisan view:publish biggo6/laravel-updater
+```
+
+
 ### Remote version file
 The remote version file holds the up to date version of the application. It also defines
 where to find the update package.
