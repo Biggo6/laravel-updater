@@ -9,24 +9,27 @@ PHP >= 5.4
 ```
 
 ### Installation
-1. Run
+a) Run
+
 ```
 composer require biggo6/laravel-updater
 ```
-2. Add service provider to **/config/app.php** file.
+
+b) Add service provider to **/config/app.php** file.
 ```php
 'providers' => [
     ...
     'Biggo6\LaravelUpdater\LaravelUpdaterServiceProvider',
 ],
 ```
-3. Create a **version.json** file in the root directory.
+c) Create a **version.json** file in the root directory.
 ```
 {
     "version": "[your initial version]"
 }
 ```
-4. Publish config file. (optionally)
+d) Publish config file. (optionally)
+
 ```
 php artisan vendor:publish
 ```
