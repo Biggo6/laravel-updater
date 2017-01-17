@@ -1,6 +1,6 @@
 {
     "name": "biggo6/laravel-updater",
-    "description": "A Laravel 5.2+ self updater package.",
+    "description": "A Laravel 4.2 self updater package.",
     "keywords": ["framework", "laravel", "self-update", "update"],
     "license": "MIT",
     "authors": [
