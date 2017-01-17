@@ -1,6 +1,8 @@
 {
     "name": "biggo6/laravel-updater",
-    "description": "",
+    "description": "A Laravel 5.2+ self updater package.",
+    "keywords": ["framework", "laravel", "self-update", "update"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Joram Kimata",
@@ -21,5 +23,10 @@
             "Biggo6\\LaravelUpdater\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+     "support": {
+        "issues": "https://github.com/biggo6/laravel-updater/issues",
+        "source": "https://github.com/biggo6/laravel-updater",
+        "wiki": "https://github.com/biggo6/laravel-updater/wiki"
+    }
 }
