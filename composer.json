@@ -1,0 +1,25 @@
+{
+    "name": "biggo6/laravel-updater",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joram Kimata",
+            "email": "joramkimata@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "naneau/semver": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Biggo6\\LaravelUpdater\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
